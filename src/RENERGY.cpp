@@ -17,3 +17,28 @@ float RENERGY::getCurrent() {
     // Code to get current from sensor
     return 0.0; // Placeholder value
 }
+
+float RENERGY::getRealPower() {
+    // Code to get real power from sensor
+    return 0.0; // Placeholder value
+}
+
+float RENERGY::getApparentPower() {
+    // Code to get apparent power from sensor
+    return 0.0; // Placeholder value
+}
+
+float RENERGY::getEnergyKwh() {
+    // Code to get energy in kWh from sensor
+    return 0.0; // Placeholder value
+}
+
+float RENERGY::getPowerFactor() {
+    // Code to get power factor from sensor
+    return 0.0; // Placeholder value
+}
+
+float RENERGY::getFrequency() {
+    // Code to get frequency from sensor
+    return 0.0; // Placeholder value
+}
