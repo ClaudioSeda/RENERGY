@@ -33,6 +33,10 @@ To use the RENERGY library with ESP32, follow these steps:
        // Collect data from sensors
        float voltage = RENERGY.getVoltage();
        float current = RENERGY.getCurrent();
+       float apparentPower = RENERGY.getApparentPower();
+       float realPower = RENERGY.getRealPower();
+       float powerFactor = RENERGY.getPowerFactor();
+       float frequency = RENERGY.getFrequency();
 
        // Print data to serial monitor
        Serial.print("Voltage: ");
@@ -40,7 +44,19 @@ To use the RENERGY library with ESP32, follow these steps:
        Serial.print(" V");
        Serial.print("Current: ");
        Serial.print(current);
-       Serial.println(" A");
+       Serial.print(" A");
+       Serial.print("Apparent Power: ");
+       Serial.print(apparentPower);
+       Serial.print(" VA");
+       Serial.print("Real Power: ");
+       Serial.print(realPower);
+       Serial.print(" W");
+       Serial.print("Power Factor: ");
+       Serial.print(powerFactor);
+       Serial.print(" ");
+       Serial.print("Frequency: ");
+       Serial.print(frequency);
+       Serial.println(" Hz");
 
        // Add your custom code to control the energy system
    }

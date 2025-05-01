@@ -9,6 +9,10 @@ public:
     void begin();
     float getVoltage();
     float getCurrent();
+    float getApparentPower();
+    float getRealPower();
+    float getPowerFactor();
+    float getFrequency();
 };
 
 #endif // RENERGY_H
