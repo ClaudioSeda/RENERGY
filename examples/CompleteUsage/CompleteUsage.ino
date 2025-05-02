@@ -59,4 +59,4 @@ void loop() {
 
     // Intervalo de atualização
     delay(1000); // Atualiza a cada segundo
-
+}
